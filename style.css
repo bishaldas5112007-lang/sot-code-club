@@ -513,3 +513,31 @@ hr{
 }
 
 
+/*events section*/
+
+
+.events-section{
+    display: flex;
+    flex-direction: column;
+    padding: 55px 80px;
+}
+.events-section h4{
+    background-color: #f7c95b;
+    color: #000;
+    font-size: 11px;
+    border: solid 1px #000;
+    display: inline-block;
+    align-self: flex-start;
+    padding: 6px 14px;
+    border-radius: 11px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 15);
+    margin-bottom: 15px;
+}
+.events-section h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.events-section p{
+    color: #6b6558;
+}
+
