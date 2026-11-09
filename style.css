@@ -723,3 +723,38 @@ hr.dashed{
      font-size: 12px;
      font-weight: 700;
 }
+
+
+/* gallery */
+.events-section-gallery{
+
+}
+.all-images{
+    padding: 90px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px ;
+}
+.first-row img, .second-row img{
+    width: 300px;
+    height: 200px; 
+    margin-bottom: 0px;
+    display: block;
+}
+.first-row, .second-row{
+ display: flex;
+ justify-content: space-around;
+ gap: 8px;
+}
+.first-row .card, .second-row .card{
+    border: solid 3px #000;
+    border-radius: 12px;
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 15);
+    overflow: hidden;
+}
+.first-row .card p, .second-row .card p{
+    background-color: #f7c95b;
+    padding: 18px;
+    border-top: solid 3px #000;
+    
+}
