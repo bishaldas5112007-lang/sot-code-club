@@ -664,7 +664,7 @@ hr{
 /*past events*/
 
 hr.dashed{
-    border: 0;                        /* removes your global solid hr border */
+    border: 0;                        
     border-top: 2px dashed #151310;
 }
 .past-events{
@@ -742,7 +742,11 @@ hr.dashed{
     display: flex;
     flex-direction: column;
     justify-content: center;
+
    box-shadow: 10px 10px 0 #151310;
+
+    box-shadow: 10px 8px 1px rgba(0, 0, 0, 15);
+
     margin-bottom: 60px;
 
 }
