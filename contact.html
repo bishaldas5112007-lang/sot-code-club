@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Club</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
 
     <nav>
         <div class="nav-container">
@@ -16,7 +18,7 @@
                 <h3>Code Club</h3>
             </div>
             <div class="nav-list">
-                <h4><a href="index.html" >HOME</a></h4>
+                <h4><a href="index.html">HOME</a></h4>
                 <h4><a href="events.html">EVENTS</a></h4>
                 <h4><a href="team.html">TEAM</a></h4>
                 <h4><a href="gallery.html">GALLERY</a></h4>
@@ -26,5 +28,118 @@
         </div>
     </nav>
 
+    <main>
+        <section class="events-section">
+            <h4>SAY HI</h4>
+            <h1>Contact</h1>
+            <p>Questions, ideas or want to join? send us a message</p>
+        </section>
+
+        <hr>
+
+   
+
+    <section class="mid-content">
+        <div class="form-content">
+            <form action="/sybmit">
+                <h2>Send a message</h2>
+
+                <label for="name">YOUR NAME</label>
+                <input id="name" name="name" type="text" required>
+
+                <label for="email">EMAIL</label>
+                <input id="email" name="email" type="email" required>
+
+                <label for="topic">TOPIC</label>
+                <select id="topic" required>
+                    <option value="join" selected>Join the club</option>
+                    <option vlaue="events">events</option>
+                    <option value="others">others</option>
+                </select>
+
+                <label for="message">MESSAGE</label>
+                <textarea id="message" row="10" name="message" required>  </textarea>
+
+                <button>SEND MESSAGE</button>
+
+            </form>
+        </div>
+        <div class="message-content">
+            <h2>Find us</h2>
+            <div class="1">
+                <h4>Email</h4>
+                <p>codeclub@sot.example.com</p>
+            </div>
+            <div class="2">
+                <h4>Where</h4>
+                <p>Block B,Room 204, Campus</p>
+            </div>
+            <div class="3">
+                <h4>Meetups</h4>
+                <p>Every Saturday, 4pm</p>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <section class="details-section">
+        <h2>Questions we hear a lot</h2>
+        <div class="details-list">
+            <details class="details1">
+            <summary>Do I need to know coding already?</summary>
+            <p>No. We run sessions for complete beginners and for people who already build things. You learn by making
+                projects with other members, and nobody expects you to arrive knowing everything.</p>
+        </details>
+
+        <details class="details1">
+            <summary>Is the club free?</summary>
+            <p>Yes. Joining and attending meetups costs nothing. Just show up on Saturday and bring a laptop if you have
+                one.</p>
+        </details>
+
+        <details class="details1">
+            <summary>Can first years join?</summary>
+            <p>Yes. First years are welcome, and it's one of the best times to start. Pick the "Join the club" topic in
+                the form above or come to the next meetup.</p>
+        </details>
+        </div>
+    </section>
+
+     </main>
+
+
+    <footer>
+    <!--first part-->
+    <section class="details">
+        <div class="description-last">
+            <div class="sameposition">
+                <button></button>
+            <h3>Code Club</h3>
+            </div>
+            <h4>A student community at upgrad school of technology. We learn by building, sharing and shipping</h4>
+        </div>
+        <div class="explore">
+            <h4>EXPLORE</h4>
+            <p>Events</p>
+            <p>Team</p>
+            <p>Gallery</p>
+            <p>Contact</p>
+        </div>
+        <div class="say-hello">
+            <h4>SAY HELLO</h4>
+            <p>codeclub@sot.example.com</p>
+            <p>Block B, Room 24, Campus</p>
+            
+        </div>
+
+        
+
+    </section>
+    <section class="last">
+        <p>&copy; 2026 CODE CLUB &#8226; UPGRAD SCHOOL OF TEXHNOLOGY</p>
+    </section>
+ </footer>
 </body>
+
 </html>
